@@ -1,0 +1,57 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[5.3,)"
+license = "MIT"
+issueTrackerURL = "https://gitlab.com/starliteheart/cobblemon-iwa/-/issues"
+
+[[mods]]
+modId = "cobblemon_iwa"
+version = "${mod_version}"
+displayName = "Cobblemon: Interact Wheel Additions"
+logoFile = "icon.png"
+credits = "Thanks to Mojang and Cobblemon Team for their incredible work and all the fun they've brought us"
+authors = "StarliteHeart"
+description = '''
+  An open-source addon mod for Cobblemon which adds additional features for the Interact Wheel.
+'''
+
+[[mixins]]
+config = "cobblemon_iwa-common.mixins.json"
+
+[[dependencies.cobblemon_iwa]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.cobblemon_iwa]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft_version}]"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.cobblemon_iwa]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[${cobblemon_version},)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.cobblemon_iwa]]
+modId = "cobblemon"
+type = "incompatible"
+versionRange = "[1.8,)"
+reason = "This version of Interact Wheel Additions is not compatible with this version of Cobblemon."
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.cobblemon_iwa]]
+modId = "cloth_config"
+type = "required"
+versionRange = "[${cloth_config_version},)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[features.cobblemon_iwa]
+javaVersion = "[${java_version},${java_version}.999999)"

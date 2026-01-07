@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_iwa",
+  "version": "${mod_version}",
+  "name": "Cobblemon: Interact Wheel Additions",
+  "description": "An open-source addon mod for Cobblemon which adds additional features for the Interact Wheel.",
+  "authors": [
+    "StarliteHeart"
+  ],
+  "contact": {
+    "sources": "https://gitlab.com/starliteheart/cobblemon-iwa",
+    "issues": "https://gitlab.com/starliteheart/cobblemon-iwa/-/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.starliteheart.cobblemon_iwa.fabric.CobblemonIWAFabric"
+    ],
+    "modmenu": [
+      "net.starliteheart.cobblemon_iwa.fabric.CobblemonIWAModMenu"
+    ]
+  },
+  "mixins": [
+    "cobblemon_iwa-common.mixins.json"
+  ],
+  "depends": {
+    "java": "${java_version}",
+    "minecraft": "~${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "cobblemon": ">=${cobblemon_version}",
+    "cloth-config": ">=${cloth_config_version}"
+  },
+  "suggests": {
+    "modmenu": ">=${mod_menu_version}"
+  },
+  "breaks": {
+    "cobblemon": ">=1.8"
+  }
+}

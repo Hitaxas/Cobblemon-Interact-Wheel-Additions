@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.starliteheart.cobblemon_iwa.common.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "client.InteractWheelGUIFactoryMixin",
+    "client.InteractWheelGUIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

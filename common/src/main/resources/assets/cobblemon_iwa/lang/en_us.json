@@ -1,0 +1,17 @@
+{
+  "cobblemon_iwa.ui.reorder": "Reorder Options",
+  "cobblemon_iwa.ui.reorder.title": "Reorder Options",
+  "text.autoconfig.cobblemon_iwa.title": "Cobblemon: Interact Wheel Additions Configuration",
+  "text.autoconfig.cobblemon_iwa.option.pokemonOrderedOptions": "Pokemon Ordered Options",
+  "text.autoconfig.cobblemon_iwa.option.pokemonOrderedOptions.@Tooltip[0]": "Ordered list of interact options and their",
+  "text.autoconfig.cobblemon_iwa.option.pokemonOrderedOptions.@Tooltip[1]": "preferred orientations for Pokemon",
+  "text.autoconfig.cobblemon_iwa.option.playerOrderedOptions": "Player Ordered Options",
+  "text.autoconfig.cobblemon_iwa.option.playerOrderedOptions.@Tooltip[0]": "Ordered list of interact options and their",
+  "text.autoconfig.cobblemon_iwa.option.playerOrderedOptions.@Tooltip[1]": "preferred orientations for players",
+  "text.autoconfig.cobblemon_iwa.option.OrderedOption": "Ordered Option",
+  "text.autoconfig.cobblemon_iwa.option.OrderedOption.resource": "Icon Resource Location",
+  "text.autoconfig.cobblemon_iwa.option.OrderedOption.orientation": "Orientation",
+  "text.autoconfig.cobblemon_iwa.option.autofillUnlisted": "Autofill Unlisted Options",
+  "text.autoconfig.cobblemon_iwa.option.autofillUnlisted.@Tooltip[0]": "Sets whether to autofill unlisted options",
+  "text.autoconfig.cobblemon_iwa.option.autofillUnlisted.@Tooltip[1]": "or to use their original orientations"
+}
